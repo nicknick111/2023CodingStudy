@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Yellowtail&display=swap');
+html{
+    border: 5px solid teal;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.Title_OpenWindow{
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    height: 30px;
+}
+.Current_Playing>span{
+    font-size: 40px;
+}
+h4{
+    margin: 0px;
+}
+#current-play-img{
+    display: flex;
+    position: relative;
+    left: 30px;
+}
+.Current_Playing{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items:baseline;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 120px;
+}
+.Use-Icons{
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#Play-button{
+    width: 100px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Favourite--Button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.My--Playlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.My--Playlist--Img{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.My--Playlist--Imglist{
+    height: 256px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:baseline;
+    flex-direction: column;
+}
+.My--Playlist--Img:nth-child(1){
+    background-color: skyblue;
+}
+.My--Playlist--Img:nth-child(2){
+    background-color: green;
+}
+.My--Playlist--Img:nth-child(3){
+    background-color: red;
+}
+.My--Playlist--Img:nth-child(4){
+    background-color:  thistle;
+}
