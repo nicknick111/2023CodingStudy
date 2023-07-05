@@ -2,10 +2,11 @@
 @import "reset.css";
 @import "variable.css";
 /*coponents*/
-@import "coponents/status-bar.css";
-@import "coponents/nav-bar.css";
-@import "coponents/screen-header.css";
-@import "coponents/user-component.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
 /*screens*/
 @import "screens/login.css";
 @import "screens/friend.css";
@@ -13,5 +14,8 @@ body{
     font-family: 'Yellowtail', cursive;
     font-family: 'Open Sans', sans-serif;
     color: #2F363E;
+}
+.main-screen{
+    padding: 0px var(--horizontal-space);
 }
 
