@@ -1,0 +1,18 @@
+.screen-header__icons-point{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    right: -5px;
+    top:-5px;
+}
+.nav__point{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    position: absolute;
+    right: -5px;
+    top:-5px;
+}

@@ -10,6 +10,7 @@
 .nav__list{
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .nav__a{
     position: relative;

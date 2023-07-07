@@ -7,10 +7,11 @@
 @import "components/screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/point.css";
 /*screens*/
 @import "screens/login.css";
 @import "screens/friend.css";
-@import "screens/find.css"
+@import "screens/find.css";
 body{
     font-family: 'Yellowtail', cursive;
     font-family: 'Open Sans', sans-serif;
