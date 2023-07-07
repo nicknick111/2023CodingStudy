@@ -10,6 +10,7 @@
 /*screens*/
 @import "screens/login.css";
 @import "screens/friend.css";
+@import "screens/find.css"
 body{
     font-family: 'Yellowtail', cursive;
     font-family: 'Open Sans', sans-serif;
