@@ -8,7 +8,7 @@
     margin-bottom: -15px;
 }
 #friend-display-link i{
-    color: rgba(0, 0, 0, 0.3);
+    color: var(--graycolor3);
 }
 .friends-screen{
     padding: 0px var(--horizontal-space);
@@ -22,5 +22,5 @@
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
-    color: rgba(0, 0, 0, 0.5);
+    color: var(--graycolor1);
 }

@@ -22,15 +22,15 @@
     padding: 15px 0px;
     border: none;
     font-size: 18px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid var(graycolor4);
     margin-bottom: 25px;
 }
 #login-form input:not([type="submit"]){
-    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    border-bottom: 1px solid var(--graycolor2);
     transition: border-color 0.3s ease-in-out;
 }
 #login-form input::placeholder{
-    color: rgba(0, 0, 0, 0.4);
+    color: var(--graycolor2);
 }
 #login-form input:focus{
     border-color: var(--yellow);
