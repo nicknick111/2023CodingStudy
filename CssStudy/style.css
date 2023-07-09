@@ -9,11 +9,13 @@
 @import "components/badge.css";
 @import "components/point.css";
 @import "components/icon-row.css";
+@import "components/alt-screen-header.css";
 /*screens*/
 @import "screens/login.css";
 @import "screens/friend.css";
 @import "screens/find.css";
 @import "screens/more.css";
+@import "screens/settings.css";
 body{
     font-family: 'Yellowtail', cursive;
     font-family: 'Open Sans', sans-serif;
