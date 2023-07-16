@@ -1,0 +1,9 @@
+.state-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.state-bar__wifi-battery{
+    display: flex;
+    justify-content: flex-end;
+}
