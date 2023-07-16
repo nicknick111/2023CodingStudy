@@ -42,6 +42,26 @@
     border-radius: 30px;
     margin-bottom: 30px;
 }
+@keyframes YoumessageView{
+    from{
+        opacity: 0;
+        transform: translateX(-320px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes MymessageView{
+    from{
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
 .message-row{
     width: 100%;
     display: flex;
@@ -74,7 +94,10 @@
     font-size: 14px;
 }
 .message-row__own{
+    opacity: 0;
     justify-content: flex-end;
+    animation: MymessageView 1s ease-in-out forwards;
+    animation-delay: 0.5s;
 }
 .message-row__own .message__bubble{
     background-color: var(--yellow);
@@ -86,6 +109,9 @@
 .message-row__own .message__info{
     flex-direction: row-reverse;
 }
+.message-row__someone{
+    animation: YoumessageView 1s ease-in-out forwards;
+}
 .reply{
     position: fixed;
     width: 100%;
@@ -96,7 +122,7 @@
     padding: 5px 25px;
     box-sizing: border-box;
     align-items: center;
-    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 .reply i{
     opacity: 0.5;
@@ -113,6 +139,7 @@
     width: 100%;
     border: var(--main-border);
     border-radius: 25px;
+    transition: all 0.3s ease-in-out;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button{
