@@ -2,6 +2,7 @@
 @import "coco-varriable.css";
 /*appscreen*/
 @import "appscreen/cocologin.css";
+@import "appscreen/cocobooks.css";
 /*common*/
 @import "common/statebar.css";
 

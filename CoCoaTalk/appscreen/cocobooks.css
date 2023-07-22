@@ -1,0 +1,36 @@
+.page_title h1{
+    font-size: 40px;
+}
+.Book-screen__myself img{
+    width: 80px;
+    height: 100px;
+}
+.Book-screen__Books img{
+    width: 60px;
+    height: 90px;
+}
+.Book-screen__myself{
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.Book-screen__Book-list{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.Book-screen__Books{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Book-screen__Books-text span{
+    display: block;
+}
+.Book-screen__Books-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
