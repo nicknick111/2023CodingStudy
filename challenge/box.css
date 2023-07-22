@@ -1,0 +1,29 @@
+body{
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.big-box{
+    background-color: ivory;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.box1{
+    background-color: teal;
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+}
+.box2{
+    width: 100px;
+    border: 1px dashed white;
+}
+
