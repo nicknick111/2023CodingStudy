@@ -1,5 +1,33 @@
+body{
+    position: relative;
+}
+.page_title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
 .page_title h1{
     font-size: 40px;
+}
+.page-list{
+    position: absolute;
+    height: 100vh;
+    width: 250px;
+    background-color: white;
+    border: 1px solid black;
+    opacity: 1;
+}
+.page-list__title-list{
+    height: 90vh;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.page-list__title-list li{
+    height: 60px;
+    font-size: 30px;
 }
 .Book-screen__myself img{
     width: 80px;
